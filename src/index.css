@@ -36,8 +36,8 @@ button {
   border-radius: 8px;
   padding: 20px 15px;
 }
-.Time-Heading:active{
-  border: 2px solid white ;
+.Time-Heading:hover{
+  border: 5px solid white ;
   color: green;
-  background-color: red;
+  background-color:#85929E;
 }
