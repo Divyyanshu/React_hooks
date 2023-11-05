@@ -1,25 +1,41 @@
-*{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(180, 188, 188);
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(180, 188, 188);
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20%;
 }
-.heading{
-display: flex;
-justify-content: center;
-align-items: center;
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button{
-    padding: 15px;
-    font-size: 20px;
-    border-radius: 5px;
-    border: 3px solid rgb(255, 255, 255);
-    background-color: rgba(236, 59, 236, 0.846);
-    color: rgb(255, 255, 255);
+button {
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgba(236, 59, 236, 0.846);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Time-Heading{
+  font-size: 50px;
+  color: red;
+  background-color: rgba(0, 128, 0, 0.487);
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px 15px;
+}
+.Time-Heading:active{
+  border: 2px solid white ;
+  color: green;
+  background-color: red;
 }

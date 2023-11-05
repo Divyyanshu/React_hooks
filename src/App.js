@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from "react";
 import "../src/index.css";
+import Timer from "./Timer";
+import Otimer from "./Otimer";
 
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
       <button onClick={IncNum}>Click me for IncrementS</button>
       <hr/>
       <button onClick={DecNum}>Click me for Decrements</button>
+      <Timer/>
+      <Otimer/>
     </Fragment>
   );
 };
