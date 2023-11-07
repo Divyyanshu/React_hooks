@@ -12,7 +12,7 @@ const onShow =()=>{
 }
   return (
     <Fragment>
-      <h1>HELLO ..!{fullName}</h1>
+      <h1 className="form-heading">HELLO ..!{fullName}</h1>
       <input type="text" placeholder="Enter your Name" onChange={inputEvent}></input>
       <button onClick={onShow}> CLICK ME </button>
     </Fragment>
