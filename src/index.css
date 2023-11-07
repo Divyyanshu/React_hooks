@@ -42,5 +42,10 @@ button {
   background-color:#85929E;
 }
 input{
-  
+  border: 2px solid green;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(171, 187, 144);
 }
